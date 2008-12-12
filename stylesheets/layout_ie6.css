@@ -1,0 +1,142 @@
+/* Style sheet with conditions for IE6. */
+
+body {
+	overflow: hidden;
+}
+
+#header {
+	border: none;
+}
+
+.error_hints {
+	width: 800px;
+	margin-bottom: -50px;
+}
+
+dl {
+	width: 840px;
+}
+
+#header li a,
+#main_content,
+ul#thumbnails li,
+#go_back_to_thumbnails {
+	behavior: url(stylesheets/iepngfix.htc);
+}
+
+#main_content {
+	min-height:             220px;
+	height:                 auto !important;
+	height:                 220px;
+}
+
+#header li a:hover {
+	cursor: pointer;
+}
+
+ul#thumbnails li div img {
+	max-width: 188px;
+	max-height: 188px;
+	width:expression(this.width > 188 ? "188px" : true);
+	height:expression(this.height > 188 ? "188px" : true);
+}
+
+body.all_videos ul#thumbnails li h3 {
+	min-height: 45px;
+	height: auto !important;
+	height: 45px;
+}
+
+#all_pictures li, #cart_items li {
+	margin:                 1px;
+}
+
+#all_pictures label {
+	margin-bottom:          3px;
+}
+
+#summary {
+	width: 520px;
+}
+
+#data_sheet,
+#data_sheet ul {
+	padding-right: 0;
+	width: 450px;
+}
+
+#summary p {
+	margin-bottom:          .7em;
+}
+
+#subnavigation {
+	margin-bottom: 30px;
+}
+
+#select_pictures a {
+	line-height:            1.3em;
+}
+
+#cart_items {
+	margin-left:            34.2em;
+}
+#cart_items li, #selected_pictures li {
+	margin:                 1px 2px;
+}
+
+#all_pictures li label, #all_pictures li a, 
+#cart_items label, #cart_items a {
+	bottom:                 0;	
+}
+#selected_pictures label, #selected_pictures a {
+	bottom:                 4px;
+}
+#all_pictures a, #cart_items a, 
+#selected_pictures a {
+	right:                  0;
+}
+
+body#selection #selection_size {
+  right:                  37em;
+}
+
+#checkout #submit_error {
+	margin-top:             1em;
+	margin-left:            0.1em;
+	margin-right:           4.4em;
+	padding:                1.5em;
+}
+
+.email_field_with_errors {
+	position:               relative;
+	top:                    .2em;
+}
+
+#go_back_to_thumbnails {
+	padding-left: 30px;
+}
+
+#submit_success {
+	width: 680px;
+}
+
+#back_to_gallery {
+	width: 880px;
+}
+
+input, textarea {
+	margin: -1.25em 0 .75em 19em;
+}
+
+#submit_result {
+	width: 880px;
+}
+
+
+#big_video label {
+	margin: 10px 0 10px 40px;
+}
+
+#go_back_to_thumbnails {
+	background: transparent url(../images/go_back.png) no-repeat 2px 2px;
+}
