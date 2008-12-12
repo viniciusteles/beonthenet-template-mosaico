@@ -252,19 +252,19 @@ ul#thumbnails a:visited img {
 
 
 /* Link to Selection */
-#select_pictures a {
+#go_to_selection a {
 	background: transparent url(../images/select_pictures.gif) no-repeat top left;
 	border: none;
 }
 
-#select_pictures a, 
-#select_pictures a:link,
-#select_pictures a:active,  
-#select_pictures a:visited {
+#go_to_selection a, 
+#go_to_selection a:link,
+#go_to_selection a:active,  
+#go_to_selection a:visited {
   color:                  #0a2229;
 }
 
-#select_pictures a:hover {
+#go_to_selection a:hover {
   color:                  #0b6b69;
 }
 /* /Link to Selection */
