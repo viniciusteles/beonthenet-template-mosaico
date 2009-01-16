@@ -55,7 +55,7 @@ body.all_videos ul#thumbnails li h3 {
 	margin-bottom:          3px;
 }
 
-#summary {
+#summary, #picture_description {
 	width: 520px;
 }
 
@@ -65,7 +65,7 @@ body.all_videos ul#thumbnails li h3 {
 	width: 450px;
 }
 
-#summary p {
+#summary p, #picture_description p {
 	margin-bottom:          .7em;
 }
 

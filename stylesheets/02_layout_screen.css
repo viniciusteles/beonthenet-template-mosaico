@@ -2,7 +2,7 @@
 
 	Be on the Net
 	'Mural' by Ramon Bispo da Silva (RamonPage) 
-	Rio de Janeiro, Brazil | November/December, 2008 | All Rights reserved 
+	Rio de Janeiro, Brazil | November/December, 2008 | Creative Commons Attribution 2.5 
 
   ########################################################################################################### */
 
@@ -202,11 +202,16 @@ ul#thumbnails li div a label {
 
 
 /* Summary */
-#summary, #about_us, #data_sheet, .error_hints {
+#summary, #about_us, #data_sheet, .error_hints, #picture_description {
 	padding:                .65em 2em;
 	border-top:             2px solid #b3a87f;
 	border-bottom:             2px solid #b3a87f;
   	margin-bottom:          10px;
+}
+
+#summary, #picture_description {
+	position:               relative;
+	clear:                  both;
 }
 
 #summary {
@@ -214,9 +219,8 @@ ul#thumbnails li div a label {
 	height:                 auto !important;
 	height:                 80px;
 	padding-right:          20em;
-	position:               relative;
-	clear:                  both;
 }
+
 /* /Summary */
 
 
