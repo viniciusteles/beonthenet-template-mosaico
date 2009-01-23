@@ -60,6 +60,10 @@ h1 a, h2 a, h3 a, h4 a, #header a {
   height: 70px;
 }
 
+#slogan {
+  display:                none;
+}
+
 #header ul {
 	margin: 0;
 	padding: 0 0 0 62px;
