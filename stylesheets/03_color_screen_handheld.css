@@ -88,20 +88,6 @@ h1#logo_screen, h1#logo_screen a, #header h1 img, #header h1#logo_print img {
 	color: #0b6b69;
 }
 
-body.best_galleries #header li.best_galleries a,
-body.full_galleries #header li.full_galleries a,
-body.quem_somos #header li.quem_somos a,
-body.contact #header li.contact a, 
-body.all_videos #header li.all_videos a,
-#header li.best_galleries a,
-#header li.full_galleries a,
-#header li.quem_somos a,
-#header li.contact a, 
-#header li.all_videos a
-#header li a, li.current a {
-/*  text-indent: -9999px;*/
-}
-
 #header li a {
   background:               transparent url(../images/bt_default.png) no-repeat 0 0;
 }
@@ -110,96 +96,6 @@ body.all_videos #header li.all_videos a,
 }
 #header li a:active {
   background-image:         url(../images/bt_active.png);
-}
-
-#header li.best_galleries a {
-	background: transparent url(../images/menu/bt_melhores_default.png) no-repeat 0 0;
-}
-
-body.best_galleries #header li.best_galleries a {
-	background: transparent url(../images/menu/bt_melhores_hover.png) no-repeat 0 0;
-}
-
-#header li.best_galleries a:hover,
-body.best_galleries #header li.best_galleries a:hover {
-	background: transparent url(../images/menu/bt_melhores_hover.png) no-repeat 0 0;
-}
-
-#header li.best_galleries a:active,
-body.best_galleries #header li.best_galleries a:active {
-	background: transparent url(../images/menu/bt_melhores_active.png) no-repeat 0 0;
-}
-
-#header li.full_galleries a {
-	background: transparent url(../images/menu/bt_albuns_default.png) no-repeat 0 0;
-}
-
-body.full_galleries #header li.full_galleries a {
-	background: transparent url(../images/menu/bt_albuns_hover.png) no-repeat 0 0;
-}
-
-#header li.full_galleries a:hover,
-body.full_galleries #header li.full_galleries a:hover {
-	background: transparent url(../images/menu/bt_albuns_hover.png) no-repeat 0 0;
-}
-
-#header li.full_galleries a:active,
-body.full_galleries #header li.full_galleries a:active {
-	background: transparent url(../images/menu/bt_albuns_active.png) no-repeat 0 0;
-}
-
-#header li.all_videos a {
-	background: transparent url(../images/menu/bt_videos_default.png) no-repeat 0 0;
-}
-
-body.all_videos #header li.all_videos a {
-	background: transparent url(../images/menu/bt_videos_hover.png) no-repeat 0 0;
-}
-
-#header li.all_videos a:hover,
-body.all_videos #header li.all_videos a:hover {
-	background: transparent url(../images/menu/bt_videos_hover.png) no-repeat 0 0;
-}
-
-#header li.all_videos a:active,
-body.all_videos #header li.all_videos a:active {
-	background: transparent url(../images/menu/bt_videos_active.png) no-repeat 0 0;
-}
-
-#header li.quem_somos a {
-	background: transparent url(../images/menu/bt_quem_somos_default.png) no-repeat 0 0;
-}
-
-body.quem_somos #header li.quem_somos a {
-	background: transparent url(../images/menu/bt_quem_somos_hover.png) no-repeat 0 0;
-}
-
-#header li.quem_somos a:hover,
-body.quem_somos #header li.quem_somos a:hover {
-	background: transparent url(../images/menu/bt_quem_somos_hover.png) no-repeat 0 0;
-}
-
-#header li.quem_somos a:active,
-body.quem_somos #header li.quem_somos a:active {
-	background: transparent url(../images/menu/bt_quem_somos_active.png) no-repeat 0 0;
-}
-
-#header li.contact a {
-	background: transparent url(../images/menu/bt_contato_default.png) no-repeat 0 0;
-}
-
-body.contact #header li.contact a {
-	background: transparent url(../images/menu/bt_contato_hover.png) no-repeat 0 0;
-}
-
-#header li.contact a:hover,
-body.contact #header li.contact a:hover {
-	background: transparent url(../images/menu/bt_contato_hover.png) no-repeat 0 0;
-}
-
-#header li.contact a:active,
-body.contact #header li.contact a:active {
-	background: transparent url(../images/menu/bt_contato_active.png) no-repeat 0 0;
 }
 
 
