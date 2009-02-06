@@ -98,6 +98,16 @@ h1#logo_screen, h1#logo_screen a, #header h1 img, #header h1#logo_print img {
   background-image:         url(../images/bt_active.png);
 }
 
+#header li.current a {
+  background-image:         url(../images/bt_current_default.png);
+}
+#header li.current a:hover {
+  background-image:         url(../images/bt_current_hover.png);
+}
+#header li.current a:active {
+  background-image:         url(../images/bt_current_active.png);
+}
+
 
 /* Main content top segment */
 #main_content {
