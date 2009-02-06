@@ -1,7 +1,7 @@
 ﻿/* ##########################################################################################################
 
 	Be on the Net
-	'Mural' by Ramon Bispo da Silva (RamonPage) 
+	'Mosaico' by Ramon Bispo da Silva (RamonPage) 
 	Rio de Janeiro, Brazil | November/December, 2008 | Creative Commons Attribution 2.5 
 
   ########################################################################################################### */
@@ -81,37 +81,12 @@ h1 a, h2 a, h3 a, h4 a, #header a {
   padding: 0 5px;
 }
 
-body.best_galleries #header li.best_galleries a, 
-body.full_galleries #header li.full_galleries a, 
-body.quem_somos #header li.quem_somos a, 
-body.contact #header li.contact a, 
-body.all_videos #header li.all_videos a,
-#header li.best_galleries a, 
-#header li.full_galleries a, 
-#header li.quem_somos a, 
-#header li.contact a, 
-#header li.all_videos a {
+#header li a, li.current a {
 	display: block;
 	float: left;
 	height: 45px;
-}
-
-body.best_galleries #header li.best_galleries,
-body.full_galleries #header li.full_galleries a,
-body.all_videos #header li.all_videos a,
-body.contact #header li.contact a,
-#header li.best_galleries a,
-#header li.full_galleries a,
-#header li.all_videos a,
-#header li.contact a {
-	width: 154px;
-}
-
-body.quem_somos #header li.quem_somos a,
-#header li.quem_somos a {
 	width: 179px;
 }
-
 
 #main_content, #footer {
   padding-right:          2em;
@@ -591,13 +566,13 @@ p#not_found {
 	z-index:                1;
 }
 	
-.error_description {
+body.application #main_content h2 {
   margin: 0 0 2em 0;
   padding: 100px 400px 20px 20px;
   height: 140px;
 }
 
-.error_hints {
+body.application #main_content ul {
 	margin-top:             .5em;
 }
 

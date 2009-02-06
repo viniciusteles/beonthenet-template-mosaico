@@ -1,7 +1,7 @@
 /* ##########################################################################################################
 
 	Be on the Net
-	'Mural' by Ramon Bispo da Silva (RamonPage) 
+	'Mosaico' by Ramon Bispo da Silva (RamonPage) 
 	Rio de Janeiro, Brazil | November/December, 2008 | Creative Commons Attribution 2.5 
 
   ########################################################################################################### */
@@ -97,8 +97,19 @@ body.all_videos #header li.all_videos a,
 #header li.full_galleries a,
 #header li.quem_somos a,
 #header li.contact a, 
-#header li.all_videos a {
-	text-indent: -9999px;
+#header li.all_videos a
+#header li a, li.current a {
+/*  text-indent: -9999px;*/
+}
+
+#header li a {
+  background:               transparent url(../images/bt_default.png) no-repeat 0 0;
+}
+#header li a:hover {
+  background-image:         url(../images/bt_hover.png);
+}
+#header li a:active {
+  background-image:         url(../images/bt_active.png);
 }
 
 #header li.best_galleries a {
@@ -499,15 +510,15 @@ button {
 
 
 /* Errors (404, 500, timeout, empty search results) */
-.error_description {
+body.application #main_content h2 {
 	background: transparent url(../images/error_404.gif) no-repeat 550px 0;
 }
 
-#error_500 {
+body#server_error #main_content h2 {
 	background-image:       url(../images/error_500.gif);
 }
 
-#error_timeout {
+body#timeout #main_content h2 {
 	background-image:       url(../images/error_timeout.gif);
 }
 
