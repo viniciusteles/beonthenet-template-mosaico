@@ -8,7 +8,7 @@
 	padding:                0;
 }
 
-.error_hints li {
+body.application #main_content ul li {
 	margin: 0;
 	padding: 0;
 }
