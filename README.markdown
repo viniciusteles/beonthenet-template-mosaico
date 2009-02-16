@@ -1,44 +1,21 @@
-# Introdução
+# Be on the Net Estático
 
-Este é um [template][0] criado para o serviço [Be on the Net][], da [Improve It][]. Foi criado por [Ramon Bispo][1], web developer/designer, que vive no Rio de Janeiro, RJ, Brasil. Disponibilizado em 08/12/2008.
+**Be on the Net Estático** é um projeto que contém arquivos HTML estáticos gerados pelo [Be on the Net][1]. Ele tem como objetivo atender aos designers que se interessarem em implementar templates para o [Be on the Net][1], uma plataforma que está sendo desenvolvida pela [Improve It][3].
 
-# Ficha Técnica
+## Mapa da Mina
 
-Código no [Be on the Net][]: **template-ramonbispo-01-2008**.  
-Autor: [Ramon Bispo][1] - [contatos][2].  
-Localização: Rio de Janeiro, RJ, Brasil.  
-Licença: [Creative Commons Atribuição 2.5][cc].  
+Para compreender como utilizar este projeto, leia os seguintes arquivos:
 
-## Fotos
+* intrucoes.html - Contém informações preliminares e instruções básicas para os designers que quiserem criar templates para o [Be on the Net][1].
 
-Autoria: [Patricia Figueira][p].  
-Localização: Niterói, RJ, Brasil.  
-Licença: Copyright. Usado com permissão.  
-Fonte: [Patricia Figueira][p].  
+* faq.text - Contém perguntas mais frequentes e suas respectivas respostas. Se você tiver novas dúvidas, por favor, [entre em contato][2].
 
-## Vídeos
+* release-notes.txt - Contém uma descrição das modificações que vêm sendo feitas no projeto. Leia para compreender o que mudou desde a última vez que você atualizou os arquivos.
 
-Autoria: [Eclethica Produtora][e].  
-Localização: Niterói, RJ, Brasil.  
-Licença: Copyright. Usado com permissão.  
-Fonte: [Eclethica Produtora][e].
+* fontes-de-material-creative-commons.txt - Contém uma lista de sites que costumam conter material disponibilizado como Creative Commons Attribution. 
 
-# Utilização
+* modelo-do-contrato.pdf - Este é o modelo do contrato de compra de templates que a Improve It utiliza com os designers que produzem templates para o Be on the Net. É recomendável que você leia este modelo para conhecer as exatas condições em que as compras de templates são feitas.
 
-Você é livre para utilizar este template e criar outros derivados dele para utilização no [Be on the Net][]. Para isso, basta respeitar os termos da licença [Creative Commons Atribuição 2.5][cc], que basicamente determinam que você deve citar o autor original do template em qualquer trabalho que se utilize ou derive dele. 
-
-Você tem permissão para utilizar este template com finalidades comerciais, bem como não-comerciais. 
-
-Instruções sobre como criar um novo template para o [Be on the Net][] podem ser obtidas no projeto [beonthenet-estatico][be]. Se preferir, faça um [download dos arquivos][d].
-
-[Be on the Net]: http://beonthe.net "Be on the Net"
-[Improve It]: http://improveit.com.br "Improve It"
-[cc]: http://creativecommons.org/licenses/by/2.5/br/ "Creative Commons Atribuição 2.5"
-[p]:  http://www.patriciafigueira.com.br "Patricia Figueira"
-[e]:  http://www.eclethicaprodutora.com.br "Eclethica Produtora"
-[be]: http://github.com/viniciusteles/beonthenet-estatico/tree/master
-[d]: http://github.com/viniciusteles/beonthenet-estatico/zipball/master
-
-[0]: http://beonthe.net/galerias/templates/galeria/72157610769015153/1
-[1]: http://ramonpage.com/
-[2]: http://ramonpage.com/sobre/
+[1]:    http://beonthe.net
+[2]:    http://www.improveit.com.br/br/contato
+[3]:    http://www.improveit.com.br
