@@ -177,7 +177,7 @@ ul#thumbnails li div a label {
 
 
 /* Summary */
-#summary, #about_us, #data_sheet, .error_hints, #picture_description {
+#summary, #about_us, #data_sheet, body.application #main_content ul, #picture_description {
 	padding:                .65em 2em;
 	border-top:             2px solid #b3a87f;
 	border-bottom:             2px solid #b3a87f;

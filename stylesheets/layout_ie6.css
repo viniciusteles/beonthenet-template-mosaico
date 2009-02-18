@@ -8,7 +8,7 @@ body {
 	border: none;
 }
 
-.error_hints {
+body.application #main_content ul {
 	width: 800px;
 	margin-bottom: -50px;
 }
