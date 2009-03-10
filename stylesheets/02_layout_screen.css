@@ -60,21 +60,27 @@ h1 a, h2 a, h3 a, h4 a, #header a {
   height: 70px;
 }
 
+#slogan {
+  width:                100%;
+  position:             absolute;
+  top:                  50px;
+}
+
 #header ul {
 	margin: 0;
-	padding: 0 0 0 62px;
+	padding: 0 0 0 40px;
 	height: 45px;
 }
 
 #header li {
 	margin: 0;
-	padding: 0;
+	padding: 0 0 0 30px;
 	display: inline;
 	position: relative;
 }
 
 #header li a {
-  padding: 0 5px 0 40px;
+  padding: 0 20px ;
 }
 
 #header li a, li.current a {
@@ -143,6 +149,11 @@ ul#thumbnails li {
 	margin:                 0 2em 2em 0;
 }
 
+ul#thumbnails li h3 {
+	width:                  178px;
+	margin:                 .5em 0 0 .8em;
+}
+
 ul#thumbnails li div {
 	position: relative;
 }
@@ -156,12 +167,12 @@ ul#thumbnails li div a {
 	vertical-align:         middle;
 }
 
+
 body.all_videos ul#thumbnails li div a {
 	height: 150px;
 }
 
 ul#thumbnails li div img {
-	vertical-align:         middle;
 	max-width: 188px;
 	max-height: 188px;
 	padding: 2px;

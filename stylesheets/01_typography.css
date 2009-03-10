@@ -22,7 +22,7 @@ p, li, dd, dt {
 }
 
 h1, h2, h3 {
-	font-family: GillSans, Trebuchet, "Trebuchet Ms", Calibri, sans-serif;
+	font-family: "GillSans", Trebuchet, "Trebuchet MS", "Calibri", sans-serif;
 }
 
 strong {
@@ -38,51 +38,18 @@ h1 {
 }
 
 h1#logo_screen, h1#logo_screen a, #header h1 img, #header h1#logo_print img {
-	font-family: GillSans, Trebuchet, "Trebuchet Ms", Calibri, sans-serif;
+	font-family: "GillSans", Trebuchet, "Trebuchet MS", "Calibri", sans-serif;
 	font-size: 1.4em;
 }
 
-
 h2 {
   font-size:              95%;
-}
-
-ul#thumbnails li h3 {
-	margin: .5em 0 0 .8em;
-	width: 178px;
-}
-
-body.all_videos ul#thumbnails li h3 {
-	min-height: 45px;
-}
-
-ul#thumbnails li h3 a {
-	font-family: GillSans, Trebuchet, "Trebuchet Ms", Calibri, sans-serif;
-	font-size: 110%;
-}
-
-body.all_videos ul#thumbnails li h3 a {
-	font-size: 80%;
 }
 
 h4, h4 a {
   font:                   92%/1.5em Arial, Helvetica, sans-serif;
   text-decoration:        none;
 }
-
-h4 a:focus, h4 a:hover {
-  text-decoration:        underline;
-}
-
-ul#thumbnails li h4 {
-	margin: 0 0 0 .8em;
-}
-
-ul#thumbnails li h4 a {
-	font-family: GillSans, Trebuchet, "Trebuchet Ms", Calibri, sans-serif;
-	font-size: 90%;
-}
-
 
 ul#thumbnails li h3 a:link, ul#thumbnails li h3 a:active, ul#thumbnails li h3 a:focus, ul#thumbnails li h3 a:active, ul#thumbnails li h3 a:visited,
 ul#thumbnails li h4 a:link, ul#thumbnails li h4 a:active, ul#thumbnails li h4 a:focus, ul#thumbnails li h4 a:active, ul#thumbnails li h4 a:visited {
@@ -98,14 +65,25 @@ ul#thumbnails li h4 a:hover {
 
 
 /* Header tabbed menu */
+#slogan {
+  text-align:             center;
+}
+
 #header li {
   font-size:              85%;
 	line-height:            1em;
 }
 
 #header li a {
+  line-height:            45px;
+  text-align:             center;  
   text-decoration:        none;
 	text-transform:         lowercase;
+}
+
+#header li.current a {
+  text-align:             left;
+  text-indent:            60px;
 }
 /* /Header tabbed menu */
 
@@ -113,6 +91,35 @@ ul#thumbnails li h4 a:hover {
 /* Thumbnails */
 ul#thumbnails li {
   font-size:     	         100%;
+}
+
+body.all_videos ul#thumbnails li h3 {
+	min-height: 45px;
+}
+
+ul#thumbnails li h3 {
+  line-height:            1em;
+}
+
+ul#thumbnails li h3 a {
+  font:                   normal normal normal 100%/1em "GillSans", Trebuchet, "Trebuchet MS", "Calibri", sans-serif;
+}
+
+body.all_videos ul#thumbnails li h3 a {
+	font-size: 80%;
+}
+
+h4 a:focus, h4 a:hover {
+  text-decoration:        underline;
+}
+
+ul#thumbnails li h4 {
+	margin: 0 0 0 .8em;
+}
+
+ul#thumbnails li h4 a {
+	font-family: "GillSans", Trebuchet, "Trebuchet MS", "Calibri", sans-serif;
+	font-size: 90%;
 }
 
 ul#thumbnails li div a {

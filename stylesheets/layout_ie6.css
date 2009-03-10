@@ -21,7 +21,7 @@ dl {
 #main_content,
 ul#thumbnails li,
 #go_back_to_thumbnails {
-	behavior: url(stylesheets/iepngfix.htc);
+/*  behavior: url(stylesheets/iepngfix.htc);*/
 }
 
 #main_content {
@@ -37,8 +37,8 @@ ul#thumbnails li,
 ul#thumbnails li div img {
 	max-width: 188px;
 	max-height: 188px;
-	width:expression(this.width > 188 ? "188px" : true);
-	height:expression(this.height > 188 ? "188px" : true);
+  width:expression(this.width > 188 ? "188px" : true);
+  height:expression(this.height > 188 ? "188px" : true);
 }
 
 body.all_videos ul#thumbnails li h3 {

@@ -88,8 +88,12 @@ h1#logo_screen, h1#logo_screen a, #header h1 img, #header h1#logo_print img {
 	color: #0b6b69;
 }
 
+#slogan {
+  color:                    #FFF;
+}
+
 #header li a {
-  background:               transparent url(../images/bt_default.png) no-repeat 0 0;
+  background:               transparent url(../images/bt_default.png) no-repeat center;
 }
 #header li a:hover {
   background-image:         url(../images/bt_hover.png);
@@ -126,7 +130,7 @@ h1#logo_screen, h1#logo_screen a, #header h1 img, #header h1#logo_print img {
 /* Vertically centering images 
 (conditional comments for IE required) */
 ul#thumbnails li {
-	background: #fff url(../images/bg_thumb.png) no-repeat 0 0;
+	background: transparent url(../images/bg_thumb.png) no-repeat 0 0;
 }
 
 ul#thumbnails a {
