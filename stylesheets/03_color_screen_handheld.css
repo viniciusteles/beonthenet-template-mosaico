@@ -346,16 +346,21 @@ body#selection #selection_size label {
 /* /Selection */
 
 
-/* Who */
-.quem_somos dt, 
-.quem_somos #main_content strong {
+/* Text */
+body.text #main_content dt, 
+body.text #main_content strong {
   color:                  #6e2723;
 }
 
-.quem_somos cite {
+body.text cite {
 	background:             transparent url(../images/signature_patfig.gif) no-repeat right top;
 }
-/* /Who */
+
+code {
+  color:                  #111;
+  background:             #EFE3C3; 
+}
+/* /Text */
 
 
 /* Forms (contact, checkout, search) */
@@ -461,16 +466,3 @@ body#timeout #main_content h2 {
 	margin-bottom:          .5em;
 }
 /* /Footer */
-
-
-
-/* Instructions */
-body.instructions #main_content dt {
-  color:                  #6e2723;
-}
-
-code {
-  color:                  #111;
-  background:             #EFE3C3; 
-}
-/* /Instructions */

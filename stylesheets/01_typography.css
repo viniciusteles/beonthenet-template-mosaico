@@ -302,20 +302,33 @@ body#search #search_result_count label {
 /* /Selection */
 
 
-/* Who */
-.quem_somos h1 + p:first-letter {
+/* text */
+body.text h1 + p:first-letter {
   font-size:              150%;
   line-height:            2em;
 }
 
-.quem_somos #main_content strong {
+body.text #main_content strong {
   font-weight:            normal;
 }
 
-.quem_somos cite {
+body.text #main_content cite {
   text-align:             right;
 }
-/* /Who */
+
+body.text #main_content dt {
+  font-weight:            bold;
+  font-size:              80%;
+}
+
+body.text #main_content dd {
+  text-align:             justify;
+}
+
+code {
+  font:                   normal normal normal 110%/1.2em "Lucida Console", "Monaco", monospace; 
+}
+/* /Text */
 
 
 /* Forms (contact, checkout, search) */
@@ -399,20 +412,3 @@ body.application #main_content li {
 }
 
 /* /Footer */
-
-
-
-/* Instructions */
-body.instructions #main_content dt {
-  font-weight:            bold;
-  font-size:              80%;
-}
-
-body.instructions #main_content dd {
-  text-align:             justify;
-}
-
-code {
-  font:                   normal normal normal 110%/1.2em "Lucida Console", "Monaco", monospace; 
-}
-/* /Instructions */
