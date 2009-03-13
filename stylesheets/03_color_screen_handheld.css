@@ -352,10 +352,6 @@ body.text #main_content strong {
   color:                  #6e2723;
 }
 
-body.text cite {
-	background:             transparent url(../images/signature_patfig.gif) no-repeat right top;
-}
-
 code {
   color:                  #111;
   background:             #EFE3C3; 
