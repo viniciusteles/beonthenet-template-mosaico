@@ -35,7 +35,7 @@ ul#thumbnails li,
 }
 
 ul#thumbnails li div img {
-	max-width: 188px;
+  max-width: 188px;
 	max-height: 188px;
   width:expression(this.width > 188 ? "188px" : true);
   height:expression(this.height > 188 ? "188px" : true);
