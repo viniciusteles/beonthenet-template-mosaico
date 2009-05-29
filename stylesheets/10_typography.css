@@ -404,10 +404,13 @@ body.application #main_content li {
 
 
 /* Footer */
-#footer p, #footer h6 {
-  text-align:           left;
-  line-height:			1.25em;
-   font-size: 70%;
+#footer * {
+  line-height:            1.25em;
 }
 
+#footer h1, #footer h2, 
+#footer h5, #footer h6 {
+  font-size:							75%;
+  font-family:            Arial, Helvetica, sans-serif;
+}
 /* /Footer */

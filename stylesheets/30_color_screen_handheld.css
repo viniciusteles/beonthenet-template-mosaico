@@ -461,4 +461,17 @@ body#timeout #main_content h2 {
 #footer p {
 	margin-bottom:          .5em;
 }
+
+#footer h1, #footer h1 a {
+  color:                  #7F6B43;
+}
+
+#beonthenet:link img, 
+#improveit:link {
+  color:                  #6E2723;
+}
+#beonthenet:visited img, 
+#improveit:visited {
+  color:                  #0B6B69;
+}
 /* /Footer */

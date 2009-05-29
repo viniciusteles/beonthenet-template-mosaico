@@ -90,7 +90,7 @@ h1 a, h2 a, h3 a, h4 a, #header a {
 	width: 179px;
 }
 
-#main_content, #footer {
+#main_content {
   padding-right:          2em;
   padding-left:           2em;
 }
@@ -204,9 +204,15 @@ ul#thumbnails li div a label {
 	min-height:             80px;
 	height:                 auto !important;
 	height:                 80px;
-	padding-right:          20em;
+}
+#gallery #summary, #picture #summary {
+  padding-right:          20em;
 }
 
+.text #summary {
+  margin-right:           -159px;
+  margin-left:            -159px;
+}
 /* /Summary */
 
 
@@ -214,9 +220,9 @@ ul#thumbnails li div a label {
 #go_to_selection a {
 	width:                  10em;
 	height:                 60px;
-	padding:           		20px 0 0 90px;
+	padding:           		  20px 0 0 90px;
 	position:               absolute;
-	top:                    10px;
+	top:                    7px;
 	right:                  2em;
 }
 /* /Link to Selection */
@@ -480,6 +486,11 @@ body.text #main_content cite {
   display:                block;
 }
 
+.text #main_content h1 {
+  margin-right:           -159px;
+  margin-left:            -159px;
+}
+
 body.text #main_content h2 {
   margin:                 2em 0 1.5em 0;
 }
@@ -667,7 +678,7 @@ body > #facebox {
 
 /* Footer */
 #footer {
-  padding: 1.25em 3.9em 1.25em 2em;
+  padding:                1.25em 2em 1.25em 2em;
 	border-top:             2px solid;
 	border-bottom:          .2em solid;
 	margin-bottom:          2em;
@@ -675,5 +686,27 @@ body > #facebox {
 
 #footer p {
 	margin-bottom:          .5em;
+}
+
+#footer h1 a {
+  border-style:           none;
+}
+#footer #beonthenet, 
+#footer #improveit {
+  border-style:           dotted;
+}
+#footer #beonthenet:hover, 
+#footer #improveit:hover {
+  border-style:           solid;
+}
+
+#beonthenet img {
+  width:                  95px;
+  height:                 22px;
+  margin:                 0 -4px -3px 0;
+}
+
+#footer h5 {
+  margin:                 2em 0 .5em 0;
 }
 /* /Footer */
