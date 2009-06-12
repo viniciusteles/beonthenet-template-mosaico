@@ -1,0 +1,710 @@
+﻿/* ##########################################################################################################
+
+	Be on the Net
+	'Mosaico' by Ramon Bispo da Silva (RamonPage) 
+	Rio de Janeiro, Brazil | November/December, 2008 | Creative Commons Attribution 2.5 
+
+  ########################################################################################################### */
+
+
+/* General
+------------------------------------------------------------------*/
+
+html * {
+	padding: 0;
+	border:  none;
+	margin:  0;
+}
+
+body {
+	width: 966px;
+	margin: auto auto 2em auto;
+}
+
+
+/* Links
+------------------------------------------------------------------*/
+
+a {
+	outline: none;
+}
+
+a:link, a:active, a:focus, a:active {
+	text-decoration: none;
+}
+
+h1 a, h2 a, h3 a, h4 a, #header a {
+	border: 0;
+	text-decoration: none;
+}
+
+
+/* Header
+------------------------------------------------------------------*/
+
+#header {
+	width: 960px;
+	height: 150px;
+	position: relative;
+	margin: 0;
+	border: 1px solid transparent;
+}
+
+#logo_print {
+	display: none;
+}
+
+#logo_screen {
+  margin: 10px 0;
+  text-align: center;
+  height: 70px;
+}
+
+#slogan {
+  width:                100%;
+  position:             absolute;
+  top:                  50px;
+}
+
+#header ul {
+	margin: 0;
+	padding: 0 0 0 40px;
+	height: 45px;
+}
+
+#header li {
+	margin: 0;
+	padding: 0 0 0 30px;
+	display: inline;
+	position: relative;
+}
+
+#header li a {
+  padding: 0 20px ;
+}
+
+#header li a, li.current a {
+	display: block;
+	float: left;
+	height: 45px;
+	width: 179px;
+}
+
+#main_content {
+  padding-right:          2em;
+  padding-left:           2em;
+}
+
+hr, .emtpy, .empty, 
+#thumbnails li.empty, 
+#selected_pictures li.empty {
+	display:                block;
+	float:                  none;
+	height:                 0;
+	padding:                0;
+	margin:                 0;
+	clear:                  both;
+	visibility:             hidden;
+}
+
+
+/* Main content top segment */
+#main_content {
+	padding: 1.56em 2.6em;
+	min-height: 300px;
+}
+
+#subnavigation {
+	padding: 0;
+	margin: .3em 0 2em 0;
+}
+
+#go_to_gallery {
+	position: absolute;
+	margin: 18px 0 0 2px;
+}
+
+#subnavigation a {
+  margin-right:           2.5em;
+}
+
+#subnavigation a {
+	padding-left:           20px;
+}
+
+h1 {
+	margin-bottom:          .7em;
+}
+
+/* /Main content top segment */
+
+
+/* Thumbnails */
+ul#thumbnails {
+  margin-right:           -3.9em;
+}
+
+ul#thumbnails li {
+	float:                  left;
+	margin:                 0 2em 2em 0;
+}
+
+ul#thumbnails li h3 {
+	width:                  178px;
+	margin:                 .5em 0 0 .8em;
+}
+
+ul#thumbnails li div {
+	position: relative;
+}
+
+/* Vertically centering images 
+(conditional comments for IE required) */
+ul#thumbnails li div a {
+	display:                table-cell;
+	width:                  195px;
+	height:                 195px;
+	vertical-align:         middle;
+}
+
+
+body.all_videos ul#thumbnails li div a {
+	height: 150px;
+}
+
+ul#thumbnails li div img {
+	max-width: 188px;
+	max-height: 188px;
+	padding: 2px;
+}
+
+ul#thumbnails li div a label {
+	width:                  auto;
+	position:               absolute;
+	bottom:                 3px;
+	left:                   6px;
+}
+/* /Thumbnails */
+
+
+/* Summary */
+#summary, #about_us, #data_sheet, body.application #main_content ul, #picture_description {
+	padding:                .65em 2em;
+	border-top:             2px solid #b3a87f;
+	border-bottom:             2px solid #b3a87f;
+  	margin-bottom:          10px;
+}
+
+#summary, #picture_description {
+	position:               relative;
+	clear:                  both;
+}
+
+#gallery #summary, #picture #summary {
+  min-height:             80px;
+	height:                 auto !important;
+	height:                 80px;
+	padding-right:          20em;
+}
+
+.text #summary {
+  margin-right:           -159px;
+  margin-left:            -159px;
+}
+/* /Summary */
+
+
+/* Link to Selection */
+#go_to_selection a {
+	width:                  10em;
+	height:                 60px;
+	padding:           		  20px 0 0 90px;
+	position:               absolute;
+	top:                    7px;
+	right:                  2em;
+}
+/* /Link to Selection */
+
+
+/* Paging */
+.pages {
+  padding:                1px 20px 3px 20px;
+  margin:                 -10px 0 10px 0;
+  clear:                  both;
+}
+
+.pages a, .pages strong {
+  padding:                0 .25em;
+}
+
+.pages strong {
+	position:               relative;
+	top:                    .15em;
+}
+
+.pages a.previous {
+  padding-left:           15px;
+}
+
+.pages a.next {
+  padding-right:          15px;
+}
+
+.second {
+  position:               relative;
+  bottom:                 35px;
+}
+/* /Paging */
+
+
+/* Data sheet */
+#data_sheet {
+	padding-top:            0;
+	padding-bottom:         1.5em;
+	clear:                  both;
+}
+
+#data_sheet h2 {
+  margin:                 1.5em 0 1em 0;
+}
+
+#data_sheet dd {
+	margin: 0 0 0 50px;
+}
+
+a#see_data_sheet {
+	border-bottom: none;
+}
+/* /Data sheet */
+
+
+/* Big picture - video pages */
+#big_picture,
+#big_video {
+	width:                  54.5em;
+	min-height:             33.25em;
+	height:                 auto !important;
+	height:                 33.25em;
+	margin-bottom:          1em;
+	position:               relative;
+}
+
+#big_picture a,
+#big_video a {
+	width:                  4.75em;
+	position:               absolute;
+	top:                    18em;
+}
+
+#big_picture #previous,
+#big_video #previous {
+	left:                   -2.5em;
+}
+#big_picture #next,
+#big_video #next {
+	right:                  -2.5em;
+}
+
+#big_picture a span,
+#big_video a span {
+	width:                  101%;
+	height:                 60px;
+	position:               absolute;
+}
+
+#big_picture img,
+#big_video img {
+	padding:                2px;
+	border:                 1px solid;
+}
+
+#big_picture label {
+	width:                  13%;
+	padding:                3px;
+	position:               absolute;
+	bottom:                 -6px;
+	right:                  43.5%;
+	left:                   43.5%;
+}
+
+#big_video label {
+	width: 40%;
+	margin: 10px 0 10px 80px;
+	padding: 5px;
+	text-align: left;
+}
+
+#big_video label span {
+	display: block;
+}
+/* /Big picture - video pages */
+
+
+/* Tags */
+#tags {
+  margin:                 .6em 0;
+}
+
+#tags h3, #tags p, #tags a {
+	display:                inline;
+  margin-right:           .7em;
+}
+/* /Tags */
+
+
+/* Selection */
+#all_pictures {
+	float:                  left;
+	width:                  31em;
+	margin-top:             .5em;
+	margin-bottom:          -3.5em;
+	position:               relative;
+	z-index:                3;
+}
+
+#cart_items {
+  width:                  20.25em;
+	min-height:             405px;
+	height:                 25.3em;
+	border:                 2px solid;
+	margin-top:             .75em;
+	margin-left:            34.35em;
+	position:               relative;
+	z-index:                2;
+}
+
+#all_pictures li, #cart_items li, #selected_pictures li {
+	float:                  left;
+	width:                  75px;
+	height:                 75px;
+	margin:                 3px;
+	position:               relative;
+}
+
+#all_pictures li label, #all_pictures li a, 
+#cart_items label, #cart_items a, 
+#selected_pictures label, #selected_pictures a {
+	width:                  auto;
+	padding:                1px 3px;
+	margin:                 0;
+	position:               absolute;
+	bottom:                 1px;	
+}
+
+#all_pictures label, #cart_items label, 
+#selected_pictures label {
+	left:                   1px;
+}
+
+#all_pictures a, #cart_items a, 
+#selected_pictures a {
+	right:                  1px;
+}
+
+#all_pictures a:hover, 
+#cart_items a:hover, 
+#selected_pictures a:hover {
+	width:                  12px;
+	height:                 16px;
+}
+
+#selected_pictures a.remove_picture {
+	padding:                0;
+	position:               static;
+}
+
+.cart-active, .move {
+	cursor:                 move;
+}
+
+
+body#selection #selection_size {
+  float:                  right;
+  margin-right:           -22.75em;
+	position:               relative;
+	top:                    .5em;
+  right:                  38em;
+	z-index:                1;
+}
+body#selection #selection_size label {
+	display:                inline;
+	padding:                .34em 1.5em .35em .8em;
+	margin-left:            3em;
+	visibility:             visible;
+}
+
+body#checkout #selection_size,
+body#pictures_sent #selection_size {
+  margin-bottom:          20px;
+}
+body#checkout #selection_size label, 
+body#pictures_sent #selection_size label, 
+body#search #search_result_count label {
+  display:                inline;
+  margin:                 0;
+}
+
+.go_to_checkout {
+	min-height:             40px;
+	height:                 auto !important;
+	height:                 2.5em;
+ 	padding:                15px 50px 0 0;
+   margin:                 .5em 0 -.6em 40em;
+}
+
+#first.go_to_checkout {
+	margin: -50px 0 0 0;
+	position:               relative;
+	bottom:                 1.2em;
+}
+
+#second.go_to_checkout {
+	margin: 12px 0 0 0;
+	position:               relative;
+	bottom:                 1.2em;
+}
+
+#back_to_gallery a {
+	display:                block;
+	margin:                 1.5em 0;
+}
+/* /Selection */
+
+
+/* Text */
+body.text #main_content {
+	padding:                1.56em 200px;
+}
+
+body.text #main_content p {
+  margin:                 1em 0;
+}
+
+body.text #main_content cite {
+  display:                block;
+}
+
+.text #main_content h1 {
+  margin-right:           -159px;
+  margin-left:            -159px;
+}
+
+body.text #main_content h2 {
+  margin:                 2em 0 1.5em 0;
+}
+
+body.text #main_content dl {
+  width:                  auto;
+  margin:                 1.6em 6em;
+}
+
+body.text #main_content dt {
+  margin:                 .25em;
+}
+
+body.text #main_content dd {
+  margin:                 0 0 1em 2.5em;
+}
+
+code {
+  padding:                .5em;
+}
+/* /Text */
+
+
+/* Forms (contact, checkout, search) */
+label {
+	display:                block;
+	width:                  29%;
+	margin-top:             .2em;
+	margin-right:           1em;
+}
+
+input, textarea {
+	display:                block;
+	width:                  40%;
+	padding:                .4em;
+	border:                 1px inset;
+	margin:                 -1.25em 0 .75em 18em;
+}
+
+input:hover, textarea:hover {
+	border:                 1px solid;
+}
+
+button {
+	display:                block;
+  padding:                .5em 1em;
+	border:                 1px outset;
+  margin:                 auto;
+}
+button:active {
+	border-style:           inset;
+}
+
+.submitting {
+   padding-right:          2.5em;
+	position:               relative;
+	left:                   1em;
+}
+.submitting:active {
+	border-style:           outset;
+}
+
+button * {
+	outline:                none;
+}
+
+#submit_error, #submit_success {
+	padding:                .5em 8em;
+	margin-bottom:          1em;
+}
+
+/* Specific for checkout e-mail form */
+body#checkout #order_form p,
+body#pictures_sent #order_form p {
+  padding-left:            1.75em;
+}
+
+/* Specific for global search form */
+#global_search {
+	width:  200px;
+	margin-left: 720px;
+	position: absolute;
+	top: 185px;
+}
+
+#global_search fieldset {
+	padding: 0;
+}
+
+#global_search #search_type {
+	display:                none;
+}
+
+#global_search #query {
+	width: 165px;
+	padding: 2px 2px 2px 30px;
+	margin:                 0;
+	border: 0;
+}
+/* /Forms (contact, checkout, search) */
+
+
+/* Errors (404, 500, timeout, empty search results) */
+p#not_found {
+    margin:                 2em 0 -2em 0;
+	position:               relative;
+	z-index:                1;
+}
+	
+body.application #main_content h2 {
+  margin: 0 0 2em 0;
+  padding: 100px 400px 20px 20px;
+  height: 140px;
+}
+
+body.application #main_content ul {
+	margin-top:             .5em;
+}
+
+#valid_search_suggestions {
+	padding-left:           23em;
+	margin-top:             1.2em;
+}
+/* /Errors (404, 500, timeout, empty search results) */
+
+
+/* Facebox */
+#facebox {
+	position:               absolute;
+	top:                    5em;
+	z-index:                100;
+}
+body > #facebox {
+	right:                  0;
+	left:                   0;
+}
+
+#facebox div {
+	min-width:              50px;
+	width:                  50px;
+	padding-top:            10px;
+  margin:                 auto;
+}
+#facebox > div {
+	width:                  auto;
+	display:                table;
+}
+
+#facebox p {
+	padding:                0 0 0 18px;
+	background-position:    bottom left;
+	position:               relative;
+	margin: 0;
+}
+
+#facebox a {
+	padding:                15px 18px 0 0;
+	background-position:    top right;
+	outline:                none;
+	position:               absolute;
+	top:                    -10px;
+	right:                  0;
+	border: 0;
+}
+#facebox p > a {
+	left:                   10px;
+	border: 0;
+}
+
+#facebox img {
+	padding:                20px 18px 18px 0;
+	background-position:    bottom right;
+	margin-bottom:          -3px;
+	border: 0;
+}
+#facebox p > img {
+	margin-bottom:          -4px;
+}
+
+*:first-child + html #facebox img {
+	margin-bottom:          -3px;
+}
+/* /Facebox */
+
+
+/* Footer */
+#footer {
+  padding:                1.25em 2em 1.25em 2em;
+	border-top:             2px solid;
+	border-bottom:          .2em solid;
+	margin-bottom:          2em;
+}
+
+#footer p {
+	margin-bottom:          .5em;
+}
+
+#footer h2 a {
+  border-style:           none;
+}
+#footer #beonthenet, 
+#footer #improveit {
+  border-style:           dotted;
+}
+#footer #beonthenet:hover, 
+#footer #improveit:hover {
+  border-style:           solid;
+}
+
+#beonthenet img {
+  width:                  95px;
+  height:                 22px;
+  margin:                 0 -4px -3px 0;
+}
+
+#footer h5 {
+  margin:                 2em 0 .5em 0;
+}
+/* /Footer */

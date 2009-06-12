@@ -1,0 +1,477 @@
+/* ##########################################################################################################
+
+	Be on the Net
+	'Mosaico' by Ramon Bispo da Silva (RamonPage) 
+	Rio de Janeiro, Brazil | November/December, 2008 | Creative Commons Attribution 2.5 
+
+  ########################################################################################################### */
+  
+
+/*
+Cores utilizadas no site:
+---------------------------------------
+
+Azul escuro: #0a2229;
+Azul médio: #0b6b69;
+
+Marrom escuro: #6e2723;
+
+Cinza: #e9e9e9;
+
+*/
+
+/* General
+------------------------------------------------------------------*/
+
+html * {
+	color: #0a2229;
+}
+
+html {
+	background: #0b6b69 url(../images/bg_html.gif) repeat-x 0 0;
+}
+
+body {
+	background: #fff url(../images/bg_html.gif) repeat-x 0 0;
+}
+
+
+a:link, a:active, a:focus, a:active {
+	color: #6e2723;
+	border-bottom: 1px dotted #b3a87f;
+}
+
+a:visited {
+	color: #0b6b69;
+	border-bottom: 1px dotted #b3a87f;
+}
+
+
+a:hover {
+	border-bottom: 1px solid #b3a87f;
+}
+
+h1 {
+	color: #6e2723;
+}
+
+h2 {
+  color: #7F6B43;
+}
+
+h3, h3 a {
+  color:                  #555;
+}
+
+ul#thumbnails li h3 a {
+	color: #0b6b69;
+}
+
+h4, h4 a {
+  color:                  #6e2723;
+}
+
+ul#thumbnails li h4 a {
+	color: #0a2229;
+}
+
+
+
+/* Header
+------------------------------------------------------------------*/
+
+#header {
+	background: transparent url(../images/bg_header.gif) no-repeat top center;
+}
+
+#logo_screen, #logo_screen a, #header p strong img, #logo_print img {
+	color: #0b6b69;
+}
+
+#slogan {
+  color:                    #FFF;
+}
+
+#header li a {
+  background:               transparent url(../images/bt_default.png) no-repeat center;
+}
+#header li a:hover {
+  background-image:         url(../images/bt_hover.png);
+}
+#header li a:active {
+  background-image:         url(../images/bt_active.png);
+}
+
+#header li.current a {
+  background-image:         url(../images/bt_current_default.png);
+}
+#header li.current a:hover {
+  background-image:         url(../images/bt_current_hover.png);
+}
+#header li.current a:active {
+  background-image:         url(../images/bt_current_active.png);
+}
+
+
+/* Main content top segment */
+#main_content {
+	background: transparent url(../images/bg_content.png) no-repeat 0 0;
+}
+
+#go_back_to_thumbnails {
+	background: transparent url(../images/arrow_left.gif) no-repeat 0 0;
+}
+
+/* /Main content top segment */
+
+
+/* Thumbnails */
+
+/* Vertically centering images 
+(conditional comments for IE required) */
+ul#thumbnails li {
+	background: transparent url(../images/bg_thumb.png) no-repeat 0 0;
+}
+
+ul#thumbnails a {
+	border: none;
+}
+
+ul#thumbnails a img, 
+#thumbnails label {
+	color:                  #0a2229;
+	background-color: #fff;
+}
+
+ul#thumbnails a:hover img, 
+ul#thumbnails a:hover label {
+	color:                  #0b6b69;
+}
+
+ul#thumbnails a img {
+	border: 1px solid #6e2723;
+}
+
+ul#thumbnails a:hover img {
+	background-color: #6e2723;
+}
+
+ul#thumbnails a:visited img {
+	border: 1px solid #b3a87f;
+}
+
+
+/* /Thumbnails */
+
+
+/* Summary */
+#summary, #about_us, #data_sheet, body.application #main_content ul, #picture_description {
+	background-color:       transparent;
+	border-color:           #b3a87f;
+}
+/* /Summary */
+
+
+/* Link to Selection */
+#go_to_selection a {
+	background: transparent url(../images/select_pictures.gif) no-repeat top left;
+	border: none;
+}
+
+#go_to_selection a, 
+#go_to_selection a:link,
+#go_to_selection a:active,  
+#go_to_selection a:visited {
+  color:                  #0a2229;
+}
+
+#go_to_selection a:hover {
+  color:                  #0b6b69;
+}
+/* /Link to Selection */
+
+
+/* Paging */
+
+.pages a,
+.pages a:link,
+.pages a:active,
+.pages a:visited,
+.pages a:hover {
+	  border: 1px solid #b3a87f;
+	  padding: 3px;
+}
+
+
+.pages a:visited,
+.pages a.previous:visited,
+.pages a.next:visited {
+  color:                  #b3a87f;
+}
+
+.pages a:hover {
+	border: 1px solid #0a2229;
+	color: #0a2229;
+}
+
+.pages strong {
+  color:                  #0a2229;
+}
+/* /Paging */
+
+
+/* Data sheet */
+
+#data_sheet li {
+	color:                  #7F6B43;
+}
+/* /Data sheet */
+
+
+/* Big picture page */
+#big_picture a span,
+#big_video a span {
+	background:  transparent url(../images/arrow_previous.gif) no-repeat center right;
+}
+#big_picture a#previous:hover span,
+#big_video a#previous:hover span {
+	background-image:       url(../images/arrow_previous_hover.gif);
+}
+#big_picture a#previous:active span,
+#big_video a#previous:active span {
+	background-image:       url(../images/arrow_previous_active.gif);
+}
+#big_picture #next span,
+#big_video #next span {
+	background:             transparent url(../images/arrow_next.gif) no-repeat center left;
+}
+#big_picture a#next:hover span,
+#big_video a#next:hover span {
+	background-image:       url(../images/arrow_next_hover.gif);
+}
+#big_picture a#next:active span,
+#big_video a#next:active span {
+	background-image:       url(../images/arrow_next_active.gif);
+}
+
+#big_picture img,
+#big_video img {
+    color:                  #6e2723;
+	border-color:           #6e2723;
+}
+
+#big_picture label,
+#big_video label {
+  color: #6e2723;
+  background: #fff;
+  border: 1px solid #6e2723;
+}
+/* /Big picture - video pages */
+
+
+/* Tags */
+#tags a {
+  color:                  #6e2723;
+}
+
+#tags a:visited {
+  color:                  #6e2723;
+}
+
+#tags a:hover {
+	text-decoration: none;
+	border-bottom: 2px solid #6e2723;
+}
+/* /Tags */
+
+
+/* Selection */
+.go_to_checkout a {
+  color:                  #6e2723;
+}
+
+body#selection #selection_size, 
+body#selection #selection_size label {
+	color:                  #F6F0DB;
+}
+
+#cart_items {
+	background:             #fafafa;
+	border-color:           #0b6b69;
+}
+
+#cart_items.instructions {
+	background:             #fafafa url(../images/selection_instructions.gif) no-repeat center center;	
+}
+
+#all_pictures img,
+#selected_pictures img {
+	border: 1px solid #0b6b69;
+}
+
+#all_pictures li label, #all_pictures li a, 
+#cart_items label, #cart_items a, 
+#selected_pictures label, #selected_pictures a {
+	background-color:       #fff;
+	color: #0b6b69;
+}
+
+#all_pictures label, #cart_items label, 
+#selected_pictures label {
+  color:                  #0b6b69;
+  opacity:                .7;
+}
+
+#all_pictures a:hover, 
+#cart_items a:hover, 
+#selected_pictures a:hover {
+	background:             transparent url(../images/magnifying_glass.gif) no-repeat center center;
+}
+
+#selected_pictures a.remove_picture:hover {
+	background:             none;
+}
+
+body#selection #selection_size label {
+	background:             #6e2723 url(../images/tab_selection_size.gif) no-repeat left center;
+}
+
+.go_to_checkout {
+	background:             transparent url(../images/shopping_cart.gif) no-repeat right center;
+}
+
+.moved_to_cart {
+	opacity:                .3;
+}
+/* /Selection */
+
+
+/* Text */
+body.text #main_content dt, 
+body.text #main_content strong {
+  color:                  #6e2723;
+}
+
+code {
+  color:                  #111;
+  background:             #EFE3C3; 
+}
+/* /Text */
+
+
+/* Forms (contact, checkout, search) */
+label {
+	color: #6e2723;
+}
+
+input, textarea {
+    color:                  #6e2723;
+	background: #fff url(../images/bg_input.gif) repeat-x 0 0;
+	border-color:           #6e2723;
+}
+
+input:hover, textarea:hover {
+	border-color:           #6e2723;
+}
+
+button {
+    color:                  #fff;
+	background-color:       #6e2723;
+	border-color:           #b3a87f;
+}
+
+.submitting {
+	color:                  #b3a87f;
+	background:             #fff url(../images/spinner_form.gif) no-repeat 95% center;
+	border-color:           #b3a87f;
+}
+
+.email_field_with_errors {
+    color:                  #f00;
+	border-color:           #f00;	
+}
+
+#submit_error {
+	background-color:       #6e2723;
+}
+
+#submit_success {
+	background-color:       #0b6b69;
+}
+
+#submit_error, #submit_success {
+  color:                  #fff;
+}
+
+/* Specific for global search form */
+#global_search {
+	background: transparent url(../images/bg_input.gif) repeat-x 0 0;
+	border: 1px solid #6e2723;
+}
+
+#global_search fieldset {
+	background:             transparent url(../images/search_corner_right.gif) no-repeat right center;
+}
+
+#global_search #query {
+	color: #6e2723;
+	background: transparent url(../images/search.png) no-repeat 2px 0px;
+}
+/* /Forms (contact, checkout, search) */
+
+
+/* Errors (404, 500, timeout, empty search results) */
+body.application #main_content h2 {
+	background: transparent url(../images/error_404.gif) no-repeat 550px 0;
+}
+
+body#server_error #main_content h2 {
+	background-image:       url(../images/error_500.gif);
+}
+
+body#timeout #main_content h2 {
+	background-image:       url(../images/error_timeout.gif);
+}
+
+#searched_item {
+	color:                  #6e2723;
+}
+/* /Errors (404, 500, timeout, empty search results) */
+
+
+/* Facebox */
+#facebox * {
+	background:             transparent url(../images/facebox_bg.gif) top left;
+}
+
+#facebox {
+	background:             none;
+}
+/* /Facebox */
+
+
+/* Footer */
+#footer {
+	background: #fcf7e4;
+	border-top-color:       #aa9d71;
+	border-bottom-color:    #0a2229;
+	margin-bottom:          2em;
+}
+
+#footer p {
+	margin-bottom:          .5em;
+}
+
+#footer h2, #footer h2 a {
+  color:                  #7F6B43;
+}
+
+#beonthenet:link img, 
+#improveit:link {
+  color:                  #6E2723;
+}
+#beonthenet:visited img, 
+#improveit:visited {
+  color:                  #0B6B69;
+}
+/* /Footer */
