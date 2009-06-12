@@ -37,7 +37,7 @@ h1 {
   font-size:              200%;
 }
 
-h1#logo_screen, h1#logo_screen a, #header h1 img, #header h1#logo_print img {
+#logo_screen, #logo_screen a, #header p strong img, #logo_print img {
 	font-family: "GillSans", Trebuchet, "Trebuchet MS", "Calibri", sans-serif;
 	font-size: 1.4em;
 }
@@ -408,7 +408,7 @@ body.application #main_content li {
   line-height:            1.25em;
 }
 
-#footer h1, #footer h2, 
+#footer h2, #footer h3, 
 #footer h5, #footer h6 {
   font-size:							75%;
   font-family:            Arial, Helvetica, sans-serif;
