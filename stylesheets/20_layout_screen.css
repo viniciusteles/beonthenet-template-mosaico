@@ -282,9 +282,9 @@ a#see_data_sheet {
 #big_picture,
 #big_video {
 	width:                  54.5em;
-	min-height:             33.25em;
-	height:                 auto !important;
-	height:                 33.25em;
+/*  min-height:             33.25em;*/
+/*  height:                 auto !important;*/
+/*  height:                 33.25em;*/
 	margin-bottom:          1em;
 	position:               relative;
 }
