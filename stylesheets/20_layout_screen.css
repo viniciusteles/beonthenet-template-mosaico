@@ -215,7 +215,7 @@ ul#thumbnails li div a label {
 
 
 /* Link to Selection */
-#go_to_selection a {
+#go_to_selection {
 	width:                  10em;
 	height:                 60px;
 	padding:           		  20px 0 0 90px;

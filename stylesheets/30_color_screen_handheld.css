@@ -173,19 +173,19 @@ ul#thumbnails a:visited img {
 
 
 /* Link to Selection */
-#go_to_selection a {
+#go_to_selection {
 	background: transparent url(../images/select_pictures.gif) no-repeat top left;
 	border: none;
 }
 
-#go_to_selection a, 
-#go_to_selection a:link,
-#go_to_selection a:active,  
-#go_to_selection a:visited {
+#go_to_selection, 
+#go_to_selection:link,
+#go_to_selection:active,  
+#go_to_selection:visited {
   color:                  #0a2229;
 }
 
-#go_to_selection a:hover {
+#go_to_selection:hover {
   color:                  #0b6b69;
 }
 /* /Link to Selection */
